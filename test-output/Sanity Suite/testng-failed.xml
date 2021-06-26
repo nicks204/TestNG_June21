@@ -7,9 +7,9 @@
     <classes>
       <class name="test.LoginTest">
         <methods>
+          <include name="NegativeLogin" invocation-numbers="0"/>
           <include name="teardown"/>
           <include name="setup"/>
-          <include name="Login" invocation-numbers="0"/>
         </methods>
       </class> <!-- test.LoginTest -->
     </classes>
